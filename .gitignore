@@ -1,0 +1,45 @@
+# Enable .exe upload
+!*.exe
+
+# Enable .ps1 upload
+!*.ps1
+
+# Enable .vbs upload
+!*.vbs
+
+# Enable .bat upload
+!*.bat
+
+# Enable .cmd upload
+!*.cmd
+
+# Enable .txt upload
+!*.txt
+
+# Enable .ico upload
+!*.ico
+
+# Enable .dll upload
+!*.dll
+
+#ignore thumbnails created by windows
+Thumbs.db
+*.pdb
+
+#App Resources
+**/Resources/*
+Resources/*
+!**/Resources/
+!Resources/
+!**/libs/
+!libs/
+!**/tools/
+!tools/
+!**/others/
+!others/
+
+#App Compil Resources
+**/bin/
+**/obj/
+bin/
+obj/
